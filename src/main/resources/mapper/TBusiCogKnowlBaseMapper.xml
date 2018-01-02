@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.TBusiCogKnowlBaseMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.TBusiCogKnowlBase">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="BASE_ID" jdbcType="VARCHAR" property="baseId" />
+    <result column="BASE_CODE" jdbcType="VARCHAR" property="baseCode" />
+    <result column="BASE_NAME" jdbcType="VARCHAR" property="baseName" />
+    <result column="BASE_CLASSIFY" jdbcType="VARCHAR" property="baseClassify" />
+    <result column="MATCH_DEGREE" jdbcType="DOUBLE" property="matchDegree" />
+    <result column="OWNER" jdbcType="VARCHAR" property="owner" />
+    <result column="SERVICE_URL" jdbcType="VARCHAR" property="serviceUrl" />
+    <result column="CRT_DT" jdbcType="TIMESTAMP" property="crtDt" />
+    <result column="UPD_DT" jdbcType="TIMESTAMP" property="updDt" />
+    <result column="NT" jdbcType="VARCHAR" property="nt" />
+    <result column="ICON" jdbcType="VARCHAR" property="icon" />
+  </resultMap>
+</mapper>
